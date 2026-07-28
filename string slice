@@ -1,0 +1,3 @@
+a=i-p-+tuto
+is_digit=a.is_digit()
+print(is_digit)
