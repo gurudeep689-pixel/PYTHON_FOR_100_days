@@ -1,0 +1,12 @@
+a="apple"
+b=a.endswith(le)
+print(b)
+
+the output should be :
+true
+a="apple"
+b=a.startswith(le)
+print(b)
+
+the output should be :
+False
