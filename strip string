@@ -1,0 +1,7 @@
+a=" apple"
+b=a.strip()
+print(b)
+
+b="..../apple...."
+c=b.strip(./)
+print(c)
