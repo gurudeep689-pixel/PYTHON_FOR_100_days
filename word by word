@@ -1,0 +1,7 @@
+a="-p-y-t-h-o-n-"
+b=a[1:12:2]
+print(b)
+
+b="python"
+c=b.lower()
+print(c)
