@@ -1,0 +1,7 @@
+a="12"
+b=int(a)
+c=11+b
+print(c)
+
+the ouput will be :
+23
