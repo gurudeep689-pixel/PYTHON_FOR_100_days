@@ -1,0 +1,17 @@
+Exception	Description
+ZeroDivisionError	Division by zero
+ValueError	Invalid value
+TypeError	Invalid data typeTypeError	Invalid data type
+NameError	Undefined variable
+IndexError	List index out of range
+KeyError	Dictionary key not found
+FileNotFoundError	File does not exist
+
+Example
+try:
+    num = 10 / 0
+    print(num)
+except ZeroDivisionError:
+    print("Cannot divide by zero.")
+Output
+Cannot divide by zero.
