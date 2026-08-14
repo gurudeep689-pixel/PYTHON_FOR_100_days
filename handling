@@ -1,0 +1,45 @@
+The finally Block
+The finally block executes whether an exception occurs or not.
+It is commonly used to close files or release resources.
+Example
+try:
+    file = open("sample.txt", "r")
+    print(file.read())
+except FileNotFoundError:
+    print("File not found.")
+finally:
+    print("Program finished.")
+Output (if the file does not exist)
+File not found.
+Program finished.
+
+The raise Statement
+Use raise to create your own exception.
+Example
+age = -5
+if age < 0:
+    raise ValueError("Age cannot be negative.")
+Output
+ValueError: Age cannot be negative.
+
+Complete Example
+try:
+    num1 = int(input("Enter first number: "))
+    num2 = int(input("Enter second number: "))
+    result = num1 / num2
+except ZeroDivisionError:
+    print("Cannot divide by zero.")
+except ValueError:
+    print("Invalid input.")
+else:
+    print("Result:", result)
+finally:
+    print("Program execution completed.")
+
+Summary
+Keyword	Purpose
+try	Contains code that may raise an exception
+except	Handles the exception
+else	Runs if no exception occurs
+finally	Always runs, whether an exception occurs or not
+raise	Raises a custom exception
